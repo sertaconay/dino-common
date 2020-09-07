@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars, jsx-a11y/control-has-associated-label */
 import React, { FC, useState } from 'react';
 import { If } from 'react-extras';
 import { isEmpty } from 'lodash';

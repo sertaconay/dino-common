@@ -1,14 +1,14 @@
 import { ButtonHTMLAttributes } from 'react';
 import { IconProp, SizeProp } from '@fortawesome/fontawesome-svg-core';
 
-export type Lit = string | number | boolean | undefined | null | void | {};
+export type Lit = string | number | boolean | undefined | null | void | Record<string, unknown>;
 
 export const tuple = <T extends Lit[]>(...args: T) => args;
 
 export type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>;
 export const tupleNum = <T extends number[]>(...args: T) => args;
 export type ElementOf<T> = T extends (infer E)[] ? E : T extends readonly (infer E)[] ? E : never;
-export type LiteralUnion<T extends U, U> = T | (U & {});
+export type LiteralUnion<T extends U, U> = T | (U & Record<string, unknown>);
 
 export const ButtonTypes = tuple('text', 'primary', 'secondary', 'ghost', 'feature');
 export type ButtonTypeTypes = typeof ButtonTypes[number];

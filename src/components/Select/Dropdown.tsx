@@ -8,7 +8,7 @@ import { DropdownProps } from './types';
 
 const StyledDropdownWrapper = styled.div`
   cursor: pointer;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 20px rgba(0 0 0 8%);
   border-radius: 4px;
   position: absolute;
   width: 100%;
@@ -23,7 +23,7 @@ const StyledDropdownWrapper = styled.div`
     li {
       height: 3.25em;
       box-sizing: border-box;
-      border-bottom: 0.5px solid rgba(132, 147, 168, 0.2);
+      border-bottom: 0.5px solid rgba(132 147 168 2%);
       border-radius: 4px;
 
       &.selected-item {

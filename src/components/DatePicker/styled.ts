@@ -13,7 +13,7 @@ export const StyledCalendar = styled.div`
   }
 
   th {
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(0 0 0 80%);
     padding: 0;
   }
 

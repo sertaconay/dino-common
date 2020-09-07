@@ -4,7 +4,7 @@ import { StyledHighlightsProps } from './types';
 export const StyledInput = styled.input`
   height: 40px;
   background: #F1F4F9;
-  border: 1px solid rgba(132, 147, 168, 0.2);
+  border: 1px solid rgba(132 147 168 20%);
   border-radius: 20px;
   outline: none;
   width: 100%;
@@ -17,7 +17,7 @@ export const StyledInput = styled.input`
 
   &::placeholder {
     color: #072252;
-    opacity: 0.3;
+    opacity: 30%;
   }
 `;
 
