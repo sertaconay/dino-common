@@ -4,7 +4,12 @@
   "description": "dino app common repository",
   "author": "Sertaç Onay <sertac@onay.me>",
   "license": "MIT",
-  "keywords": ["dino", "common", "react", "typescript"],
+  "keywords": [
+    "dino",
+    "common",
+    "react",
+    "typescript"
+  ],
   "bugs": {
     "url": "https://github.com/sertaconay/dino-common/issues"
   },
@@ -84,8 +89,7 @@
     "html-webpack-template": "^6.2.0",
     "react-refresh": "^0.8.3",
     "stylelint": "^13.6.1",
-    "stylelint-config-recommended": "^3.0.0",
-    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-config-novac": "^0.2.3",
     "stylelint-custom-processor-loader": "^0.6.0",
     "stylelint-processor-styled-components": "^1.10.0",
     "terser-webpack-plugin": "^4.1.0",
